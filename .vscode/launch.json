@@ -1,0 +1,15 @@
+{
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Build Project",
+      "program": "${workspaceFolder}\\src\\algo.ts",
+      "preLaunchTask": "npm: build",
+      "sourceMaps": true,
+      "smartStep": true,
+      "internalConsoleOptions": "openOnSessionStart",
+      "outFiles": ["${workspaceFolder}/out/**/*.js"]
+    }
+  ]
+}

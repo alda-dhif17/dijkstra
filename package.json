@@ -1,0 +1,26 @@
+{
+  "name": "djikstra",
+  "version": "1.0.0",
+  "description": "The Djikstra algorithm in multiple languages!",
+  "main": "index.js",
+  "dependencies": {
+    "typescript": "^3.9.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node out/app.js",
+    "prestart": "npm run build",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alda-dhif17/djikstra.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alda-dhif17/djikstra/issues"
+  },
+  "homepage": "https://github.com/alda-dhif17/djikstra#readme"
+}
